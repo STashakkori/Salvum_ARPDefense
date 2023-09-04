@@ -214,7 +214,7 @@ def main(argv):
     parser.add_option("-a", "--address", dest="ip_addr", help="IP address to monitor.")
     parser.add_option("-f", "--interface", dest="interface",  help="Interface to defend.")
     parser.add_option("-i", "--info", action="store_true", dest="showInfo",  help="Show the copyright and about information.")
-    parser.add_option("-t",action="store_true",dest="isTest",help="add this flag for salvum test")
+    parser.add_option("-t",action="store_true",dest="isTest",help="Add this flag for Salvum test")
     (options, args) = parser.parse_args()
     # Validate arguments
     if options.showInfo == True:
